@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<table border="1">
+	<thead>
+		<tr>
+			<th>번호</th>
+			<th>부서명</th>
+			<th>부서코드</th>
+			<th>부서설명</th>
+		</tr>
+	</thead>
+	<tbody id="tBody">
+	</tbody>
+</table>
+<button>PUT</button>
+<button>GET</button>
+<button>POST</button>
+<button>DELETE</button>
+<script>
+	var objs = document.querySelectorAll('button');
+	for(var i=0;i<objs.length;i++){
+		objs[i].onclick = function(){
+			var req = new XMLHttpRequest();
+			req.onreadystatechange = function(){
+				if(req.readyState==req.DONE){
+					if(req.status==200){
+						var obj = JSON.parse(req.responseText);
+						var html='';
+						for(var i=0;i<obj.length;i++){
+							html += '<tr>';
+							html += '<td>' + obj[i].diNum + '</td>';
+							html += '<td>' + obj[i].diName + '</td>';
+							html += '<td>' + obj[i].diCode + '</td>';
+							html += '<td>' + obj[i].diDesc + '</td>';
+							html += '</tr>';
+						}
+						document.querySelector('#tBody').innerHTML = html;
+					}else{
+						
+					}
+				}
+			}
+			var param = {name:'홍길동',age:'33',address:'seoul'};
+			req.open(this.innerHTML,'/json/list');
+			req.send();
+			//req.setRequestHeader("Content-Type", "application/json; charset=UTF-8");
+			//req.send(JSON.stringify(param));
+		}
+	}
+</script>
+</body>
+</html>

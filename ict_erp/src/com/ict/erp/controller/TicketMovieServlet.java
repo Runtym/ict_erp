@@ -2,9 +2,7 @@ package com.ict.erp.controller;
 
 import java.io.File;
 import java.io.IOException;
-import java.io.UnsupportedEncodingException;
 import java.sql.SQLException;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -16,7 +14,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.apache.commons.fileupload.FileItem;
-import org.apache.commons.fileupload.FileUploadException;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
 import org.apache.commons.logging.Log;
@@ -52,7 +49,7 @@ public class TicketMovieServlet extends HttpServlet {
 		doService(req,res);
 	}
 
-	public static Map<String,Object> parseRequest(HttpServletRequest req) throws ServletException, FileUploadException, UnsupportedEncodingException{
+	public static Map<String,String> parseRequest(HttpServletRequest req) throws Exception{
 		Map<String,Object> rMap = new HashMap<String,Object>();
 		if(!ServletFileUpload.isMultipartContent(req)) {
 			throw new ServletException("폼 인크립트가 파일업로드에 적합하지 않습니다.");
@@ -65,28 +62,25 @@ public class TicketMovieServlet extends HttpServlet {
 		sfu.setFileSizeMax(UP_FILE_SIZE);
 		List<FileItem> fList = sfu.parseRequest(req);
 		Map<String,String> params = new HashMap<String,String>();
-		List<FileItem> saveList = new ArrayList<FileItem>();
 		for(FileItem fi:fList) {
 			if(fi.isFormField()) {
 				params.put(fi.getFieldName(), fi.getString("utf-8"));
 			}else {
-				File f= new File(fi.getName());
 				String fName = File.separator + "upload" + File.separator + System.currentTimeMillis() + fi.getName().substring(fi.getName().lastIndexOf("."));
 				params.put(fi.getFieldName(), fName);
-				saveList.add(fi);
+				fi.write(new File(UP_PATH + File.separator + fName));
 			}
 		}
-		rMap.put("params", params);
-		rMap.put("saveList", saveList);
-		return rMap;
+		return params;
 	}
+	
+	
 	protected void doPost(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
 		uri = "/views" + req.getRequestURI();
 		String cmd = ICTUtils.getCmd(uri);
 		try {
 			if(cmd.equals("ticketMovieInsert")) {
-				Map<String,Object> map = parseRequest(req);
-				Map<String,String> params = (Map<String,String>)map.get("params");
+				Map<String,String> params = parseRequest(req);
 				TicketMovie tm = IBean.parseRequest(params, TicketMovie.class);
 				int cnt = ts.insertTicketMovie(tm);
 				req.setAttribute("cnt", cnt);
@@ -96,6 +90,7 @@ public class TicketMovieServlet extends HttpServlet {
 		}
 		doService(req, res);
 	}
+	
 	private void doService(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
 		RequestDispatcher rd = req.getRequestDispatcher(uri);
 		rd.forward(req, res);
