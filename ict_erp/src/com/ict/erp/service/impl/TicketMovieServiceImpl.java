@@ -49,8 +49,18 @@ public class TicketMovieServiceImpl implements TicketMovieService {
 
 	@Override
 	public int deleteTicketMovie(TicketMovie tm) throws SQLException {
-		// TODO Auto-generated method stub
-		return 0;
+		tmdao.setConnection(DBCon.getCon());
+		try {
+			tm = tmdao.selectTicketMovie(tm);
+			String tmImg = tm.getTmImg();
+			System.out.println(tmImg);
+			return 0;
+			//return tmdao.deleteTicketMovie(tm);
+		}catch(SQLException e) {
+			throw e;
+		}finally {
+			DBCon.close();
+		}
 	}
 
 }

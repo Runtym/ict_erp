@@ -9,6 +9,7 @@
 			<table class="table table-bordered">
 				<thead>
 					<tr>
+						<th>선택</th>
 						<th>번호</th>
 						<th>영화명</th>
 						<th>표가격</th>
@@ -22,6 +23,7 @@
 				<tbody id='menuTbody'>
 				<c:forEach items="${tmList}" var="tm">
 					<tr>
+						<td><input type="checkbox" name="tmNum" value="${tm.tmNum}"></td>
 						<td>${tm.tmNum}</td>
 						<td>${tm.tmName}</td>
 						<td>${tm.tmPrice}</td>
@@ -35,7 +37,15 @@
 				</tbody>				
 			</table>
 			<button data-page="/views/tm/tmInsert">노래입력</button>
+			<button type="button" onclick="deleteTM()">노래삭제</button>
 		</div>
 	</div>
 </div>
+<script>
+	function deleteTM(){
+		var obj = document.querySelector("input[type=checkbox]:checked");
+		location.href ="/ticketMovie/ticketMovieDelete?tmNum=" + obj.value;
+	}
+
+</script>
 <jsp:include page="/WEB-INF/views/menu/bottom.jsp" />

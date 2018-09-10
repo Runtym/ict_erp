@@ -4,10 +4,12 @@
   <welcome-file-list>
     <welcome-file>/WEB-INF/views/index.jsp</welcome-file>
   </welcome-file-list>
+  
   <context-param>
     <param-name>DepartService</param-name>
     <param-value>com.ict.erp.service.impl.DepartServiceImpl</param-value>
   </context-param>
+  
   <servlet>
     <servlet-name>ViewServlet</servlet-name>
     <servlet-class>com.ict.erp.controller.ViewServlet</servlet-class>
@@ -92,4 +94,7 @@
     <filter-name>EncodingFilter</filter-name>
     <url-pattern>/*</url-pattern>
   </filter-mapping>
+  <session-config>
+  	<session-timeout>1</session-timeout>
+  </session-config>
 </web-app>

@@ -3,9 +3,10 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <%
+
+String uri = request.getRequestURI();
 String rPath = request.getContextPath();
 String title = "클라우드 프로젝트";
-String uri = request.getRequestURI();
 %>
 <!doctype html>
 <html>

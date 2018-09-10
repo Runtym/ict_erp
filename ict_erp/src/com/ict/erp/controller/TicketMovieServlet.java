@@ -39,12 +39,19 @@ public class TicketMovieServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
 		uri = "/views" + req.getRequestURI();
 		String cmd = ICTUtils.getCmd(uri);
+		
 		try {
 			if(cmd.equals("ticketMovieList")) {
 				req.setAttribute("tmList", ts.selectTicketMovieList(null));
+			}else if(cmd.equals("ticketMovieDelete")) {
+				TicketMovie tm = IBean.parseRequest(req, TicketMovie.class);
+				ts.deleteTicketMovie(tm);
+				System.out.println(tm);
 			}
 		}catch(SQLException e) {
 			e.printStackTrace();
+		} catch (Exception e) {
+			throw new ServletException(e);
 		}
 		doService(req,res);
 	}

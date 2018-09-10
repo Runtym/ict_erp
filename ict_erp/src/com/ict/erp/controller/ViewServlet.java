@@ -13,6 +13,9 @@ import javax.servlet.http.HttpServletResponse;
 public class ViewServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
+	public ViewServlet() {
+		System.out.println("난 호출 될기전엔 안됨");
+	}
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String uri = request.getRequestURI();
 		uri = "/WEB-INF" + uri + ".jsp";

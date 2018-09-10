@@ -1,450 +1,63 @@
-[2018-09-04 10:20:38,225]DEBUG (AuthFilter.java:34):/
-[2018-09-04 10:20:38,254] INFO (AuthFilter.java:36):/
-[2018-09-04 10:20:38,254] WARN (AuthFilter.java:38):/
-[2018-09-04 10:20:38,255]ERROR (AuthFilter.java:40):/
-[2018-09-04 10:20:38,255]FATAL (AuthFilter.java:42):/
-[2018-09-04 10:24:00,820]DEBUG (AuthFilter.java:34):/json.html
-[2018-09-04 10:24:00,822] INFO (AuthFilter.java:36):/json.html
-[2018-09-04 10:24:00,822] WARN (AuthFilter.java:38):/json.html
-[2018-09-04 10:24:00,822]ERROR (AuthFilter.java:40):/json.html
-[2018-09-04 10:24:00,823]FATAL (AuthFilter.java:42):/json.html
-[2018-09-04 10:24:01,129]DEBUG (AuthFilter.java:34):/favicon.ico
-[2018-09-04 10:24:01,129] INFO (AuthFilter.java:36):/favicon.ico
-[2018-09-04 10:24:01,129] WARN (AuthFilter.java:38):/favicon.ico
-[2018-09-04 10:24:01,129]ERROR (AuthFilter.java:40):/favicon.ico
-[2018-09-04 10:24:01,129]FATAL (AuthFilter.java:42):/favicon.ico
-[2018-09-04 10:24:05,606]DEBUG (AuthFilter.java:34):/json/list
-[2018-09-04 10:24:05,607] INFO (AuthFilter.java:36):/json/list
-[2018-09-04 10:24:05,607] WARN (AuthFilter.java:38):/json/list
-[2018-09-04 10:24:05,607]ERROR (AuthFilter.java:40):/json/list
-[2018-09-04 10:24:05,608]FATAL (AuthFilter.java:42):/json/list
-[2018-09-04 10:24:29,546]DEBUG (AuthFilter.java:34):/
-[2018-09-04 10:24:29,561] INFO (AuthFilter.java:36):/
-[2018-09-04 10:24:29,561] WARN (AuthFilter.java:38):/
-[2018-09-04 10:24:29,561]ERROR (AuthFilter.java:40):/
-[2018-09-04 10:24:29,561]FATAL (AuthFilter.java:42):/
-[2018-09-04 10:24:35,346]DEBUG (AuthFilter.java:34):/json/list
-[2018-09-04 10:24:35,346] INFO (AuthFilter.java:36):/json/list
-[2018-09-04 10:24:35,347] WARN (AuthFilter.java:38):/json/list
-[2018-09-04 10:24:35,347]ERROR (AuthFilter.java:40):/json/list
-[2018-09-04 10:24:35,347]FATAL (AuthFilter.java:42):/json/list
-[2018-09-04 10:25:08,491]DEBUG (AuthFilter.java:34):/json.html
-[2018-09-04 10:25:08,502] INFO (AuthFilter.java:36):/json.html
-[2018-09-04 10:25:08,502] WARN (AuthFilter.java:38):/json.html
-[2018-09-04 10:25:08,503]ERROR (AuthFilter.java:40):/json.html
-[2018-09-04 10:25:08,503]FATAL (AuthFilter.java:42):/json.html
-[2018-09-04 10:25:11,050]DEBUG (AuthFilter.java:34):/json/list
-[2018-09-04 10:25:11,052] INFO (AuthFilter.java:36):/json/list
-[2018-09-04 10:25:11,052] WARN (AuthFilter.java:38):/json/list
-[2018-09-04 10:25:11,052]ERROR (AuthFilter.java:40):/json/list
-[2018-09-04 10:25:11,052]FATAL (AuthFilter.java:42):/json/list
-[2018-09-04 10:25:53,857]DEBUG (AuthFilter.java:34):/json.html
-[2018-09-04 10:25:53,867] INFO (AuthFilter.java:36):/json.html
-[2018-09-04 10:25:53,867] WARN (AuthFilter.java:38):/json.html
-[2018-09-04 10:25:53,867]ERROR (AuthFilter.java:40):/json.html
-[2018-09-04 10:25:53,867]FATAL (AuthFilter.java:42):/json.html
-[2018-09-04 10:25:57,689]DEBUG (AuthFilter.java:34):/json/list
-[2018-09-04 10:25:57,691] INFO (AuthFilter.java:36):/json/list
-[2018-09-04 10:25:57,691] WARN (AuthFilter.java:38):/json/list
-[2018-09-04 10:25:57,691]ERROR (AuthFilter.java:40):/json/list
-[2018-09-04 10:25:57,691]FATAL (AuthFilter.java:42):/json/list
-[2018-09-04 10:43:28,655]DEBUG (AuthFilter.java:34):/
-[2018-09-04 10:43:28,666] INFO (AuthFilter.java:36):/
-[2018-09-04 10:43:28,667] WARN (AuthFilter.java:38):/
-[2018-09-04 10:43:28,667]ERROR (AuthFilter.java:40):/
-[2018-09-04 10:43:28,667]FATAL (AuthFilter.java:42):/
-[2018-09-04 10:43:35,511]DEBUG (AuthFilter.java:34):/json/list
-[2018-09-04 10:43:35,513] INFO (AuthFilter.java:36):/json/list
-[2018-09-04 10:43:35,513] WARN (AuthFilter.java:38):/json/list
-[2018-09-04 10:43:35,513]ERROR (AuthFilter.java:40):/json/list
-[2018-09-04 10:43:35,513]FATAL (AuthFilter.java:42):/json/list
-[2018-09-04 10:52:21,158]DEBUG (AuthFilter.java:34):/json/list
-[2018-09-04 10:52:21,159] INFO (AuthFilter.java:36):/json/list
-[2018-09-04 10:52:21,159] WARN (AuthFilter.java:38):/json/list
-[2018-09-04 10:52:21,160]ERROR (AuthFilter.java:40):/json/list
-[2018-09-04 10:52:21,161]FATAL (AuthFilter.java:42):/json/list
-[2018-09-04 10:52:26,633]DEBUG (AuthFilter.java:34):/json.html
-[2018-09-04 10:52:26,638] INFO (AuthFilter.java:36):/json.html
-[2018-09-04 10:52:26,638] WARN (AuthFilter.java:38):/json.html
-[2018-09-04 10:52:26,638]ERROR (AuthFilter.java:40):/json.html
-[2018-09-04 10:52:26,639]FATAL (AuthFilter.java:42):/json.html
-[2018-09-04 10:52:28,896]DEBUG (AuthFilter.java:34):/json/list
-[2018-09-04 10:52:28,896] INFO (AuthFilter.java:36):/json/list
-[2018-09-04 10:52:28,911] WARN (AuthFilter.java:38):/json/list
-[2018-09-04 10:52:28,911]ERROR (AuthFilter.java:40):/json/list
-[2018-09-04 10:52:28,911]FATAL (AuthFilter.java:42):/json/list
-[2018-09-04 10:54:27,165]DEBUG (AuthFilter.java:34):/json.html
-[2018-09-04 10:54:27,166] INFO (AuthFilter.java:36):/json.html
-[2018-09-04 10:54:27,166] WARN (AuthFilter.java:38):/json.html
-[2018-09-04 10:54:27,166]ERROR (AuthFilter.java:40):/json.html
-[2018-09-04 10:54:27,166]FATAL (AuthFilter.java:42):/json.html
-[2018-09-04 10:54:29,984]DEBUG (AuthFilter.java:34):/json/list
-[2018-09-04 10:54:29,984] INFO (AuthFilter.java:36):/json/list
-[2018-09-04 10:54:29,984] WARN (AuthFilter.java:38):/json/list
-[2018-09-04 10:54:29,984]ERROR (AuthFilter.java:40):/json/list
-[2018-09-04 10:54:29,984]FATAL (AuthFilter.java:42):/json/list
-[2018-09-04 10:55:11,288]DEBUG (AuthFilter.java:34):/json.html
-[2018-09-04 10:55:11,306] INFO (AuthFilter.java:36):/json.html
-[2018-09-04 10:55:11,306] WARN (AuthFilter.java:38):/json.html
-[2018-09-04 10:55:11,307]ERROR (AuthFilter.java:40):/json.html
-[2018-09-04 10:55:11,307]FATAL (AuthFilter.java:42):/json.html
-[2018-09-04 10:55:12,609]DEBUG (AuthFilter.java:34):/json/list
-[2018-09-04 10:55:12,609] INFO (AuthFilter.java:36):/json/list
-[2018-09-04 10:55:12,609] WARN (AuthFilter.java:38):/json/list
-[2018-09-04 10:55:12,609]ERROR (AuthFilter.java:40):/json/list
-[2018-09-04 10:55:12,609]FATAL (AuthFilter.java:42):/json/list
-[2018-09-04 11:01:03,909]DEBUG (AuthFilter.java:34):/json.html
-[2018-09-04 11:01:03,928] INFO (AuthFilter.java:36):/json.html
-[2018-09-04 11:01:03,928] WARN (AuthFilter.java:38):/json.html
-[2018-09-04 11:01:03,928]ERROR (AuthFilter.java:40):/json.html
-[2018-09-04 11:01:03,929]FATAL (AuthFilter.java:42):/json.html
-[2018-09-04 11:01:05,485]DEBUG (AuthFilter.java:34):/json/list
-[2018-09-04 11:01:05,485] INFO (AuthFilter.java:36):/json/list
-[2018-09-04 11:01:05,485] WARN (AuthFilter.java:38):/json/list
-[2018-09-04 11:01:05,485]ERROR (AuthFilter.java:40):/json/list
-[2018-09-04 11:01:05,485]FATAL (AuthFilter.java:42):/json/list
-[2018-09-04 11:04:57,290]DEBUG (AuthFilter.java:34):/json.html
-[2018-09-04 11:04:57,290] INFO (AuthFilter.java:36):/json.html
-[2018-09-04 11:04:57,291] WARN (AuthFilter.java:38):/json.html
-[2018-09-04 11:04:57,291]ERROR (AuthFilter.java:40):/json.html
-[2018-09-04 11:04:57,291]FATAL (AuthFilter.java:42):/json.html
-[2018-09-04 11:07:05,345]DEBUG (AuthFilter.java:34):/json.html
-[2018-09-04 11:07:05,346] INFO (AuthFilter.java:36):/json.html
-[2018-09-04 11:07:05,346] WARN (AuthFilter.java:38):/json.html
-[2018-09-04 11:07:05,346]ERROR (AuthFilter.java:40):/json.html
-[2018-09-04 11:07:05,347]FATAL (AuthFilter.java:42):/json.html
-[2018-09-04 11:08:08,919]DEBUG (AuthFilter.java:34):/json.html
-[2018-09-04 11:08:08,920] INFO (AuthFilter.java:36):/json.html
-[2018-09-04 11:08:08,921] WARN (AuthFilter.java:38):/json.html
-[2018-09-04 11:08:08,921]ERROR (AuthFilter.java:40):/json.html
-[2018-09-04 11:08:08,921]FATAL (AuthFilter.java:42):/json.html
-[2018-09-04 11:11:49,264]DEBUG (AuthFilter.java:34):/json.html
-[2018-09-04 11:11:49,292] INFO (AuthFilter.java:36):/json.html
-[2018-09-04 11:11:49,292] WARN (AuthFilter.java:38):/json.html
-[2018-09-04 11:11:49,292]ERROR (AuthFilter.java:40):/json.html
-[2018-09-04 11:11:49,292]FATAL (AuthFilter.java:42):/json.html
-[2018-09-04 11:11:50,413]DEBUG (AuthFilter.java:34):/json/list
-[2018-09-04 11:11:50,413] INFO (AuthFilter.java:36):/json/list
-[2018-09-04 11:11:50,413] WARN (AuthFilter.java:38):/json/list
-[2018-09-04 11:11:50,413]ERROR (AuthFilter.java:40):/json/list
-[2018-09-04 11:11:50,413]FATAL (AuthFilter.java:42):/json/list
-[2018-09-04 11:35:46,132]DEBUG (AuthFilter.java:34):/json.html
-[2018-09-04 11:35:46,144] INFO (AuthFilter.java:36):/json.html
-[2018-09-04 11:35:46,145] WARN (AuthFilter.java:38):/json.html
-[2018-09-04 11:35:46,145]ERROR (AuthFilter.java:40):/json.html
-[2018-09-04 11:35:46,145]FATAL (AuthFilter.java:42):/json.html
-[2018-09-04 11:35:49,691]DEBUG (AuthFilter.java:34):/json/list
-[2018-09-04 11:35:49,691] INFO (AuthFilter.java:36):/json/list
-[2018-09-04 11:35:49,691] WARN (AuthFilter.java:38):/json/list
-[2018-09-04 11:35:49,691]ERROR (AuthFilter.java:40):/json/list
-[2018-09-04 11:35:49,691]FATAL (AuthFilter.java:42):/json/list
-[2018-09-04 11:35:59,026]DEBUG (AuthFilter.java:34):/json.html
-[2018-09-04 11:35:59,027] INFO (AuthFilter.java:36):/json.html
-[2018-09-04 11:35:59,027] WARN (AuthFilter.java:38):/json.html
-[2018-09-04 11:35:59,027]ERROR (AuthFilter.java:40):/json.html
-[2018-09-04 11:35:59,028]FATAL (AuthFilter.java:42):/json.html
-[2018-09-04 11:36:01,625]DEBUG (AuthFilter.java:34):/json/list
-[2018-09-04 11:36:01,625] INFO (AuthFilter.java:36):/json/list
-[2018-09-04 11:36:01,625] WARN (AuthFilter.java:38):/json/list
-[2018-09-04 11:36:01,625]ERROR (AuthFilter.java:40):/json/list
-[2018-09-04 11:36:01,625]FATAL (AuthFilter.java:42):/json/list
-[2018-09-04 11:46:31,554]DEBUG (AuthFilter.java:34):/json.html
-[2018-09-04 11:46:31,555] INFO (AuthFilter.java:36):/json.html
-[2018-09-04 11:46:31,556] WARN (AuthFilter.java:38):/json.html
-[2018-09-04 11:46:31,556]ERROR (AuthFilter.java:40):/json.html
-[2018-09-04 11:46:31,556]FATAL (AuthFilter.java:42):/json.html
-[2018-09-04 11:46:36,824]DEBUG (AuthFilter.java:34):/json/list
-[2018-09-04 11:46:36,824] INFO (AuthFilter.java:36):/json/list
-[2018-09-04 11:46:36,824] WARN (AuthFilter.java:38):/json/list
-[2018-09-04 11:46:36,824]ERROR (AuthFilter.java:40):/json/list
-[2018-09-04 11:46:36,824]FATAL (AuthFilter.java:42):/json/list
-[2018-09-04 11:49:48,099]DEBUG (AuthFilter.java:34):/json.html
-[2018-09-04 11:49:48,099] INFO (AuthFilter.java:36):/json.html
-[2018-09-04 11:49:48,100] WARN (AuthFilter.java:38):/json.html
-[2018-09-04 11:49:48,100]ERROR (AuthFilter.java:40):/json.html
-[2018-09-04 11:49:48,100]FATAL (AuthFilter.java:42):/json.html
-[2018-09-04 11:49:50,515]DEBUG (AuthFilter.java:34):/json/list
-[2018-09-04 11:49:50,516] INFO (AuthFilter.java:36):/json/list
-[2018-09-04 11:49:50,516] WARN (AuthFilter.java:38):/json/list
-[2018-09-04 11:49:50,516]ERROR (AuthFilter.java:40):/json/list
-[2018-09-04 11:49:50,516]FATAL (AuthFilter.java:42):/json/list
-[2018-09-04 11:50:06,471]DEBUG (AuthFilter.java:34):/json.html
-[2018-09-04 11:50:06,471] INFO (AuthFilter.java:36):/json.html
-[2018-09-04 11:50:06,471] WARN (AuthFilter.java:38):/json.html
-[2018-09-04 11:50:06,472]ERROR (AuthFilter.java:40):/json.html
-[2018-09-04 11:50:06,472]FATAL (AuthFilter.java:42):/json.html
-[2018-09-04 11:50:07,483]DEBUG (AuthFilter.java:34):/json/list
-[2018-09-04 11:50:07,483] INFO (AuthFilter.java:36):/json/list
-[2018-09-04 11:50:07,483] WARN (AuthFilter.java:38):/json/list
-[2018-09-04 11:50:07,484]ERROR (AuthFilter.java:40):/json/list
-[2018-09-04 11:50:07,484]FATAL (AuthFilter.java:42):/json/list
-[2018-09-04 12:00:04,116]DEBUG (AuthFilter.java:34):/json.html
-[2018-09-04 12:00:04,116] INFO (AuthFilter.java:36):/json.html
-[2018-09-04 12:00:04,116] WARN (AuthFilter.java:38):/json.html
-[2018-09-04 12:00:04,117]ERROR (AuthFilter.java:40):/json.html
-[2018-09-04 12:00:04,119]FATAL (AuthFilter.java:42):/json.html
-[2018-09-04 12:00:05,067]DEBUG (AuthFilter.java:34):/view/depart/departList
-[2018-09-04 12:00:05,067] INFO (AuthFilter.java:36):/view/depart/departList
-[2018-09-04 12:00:05,067] WARN (AuthFilter.java:38):/view/depart/departList
-[2018-09-04 12:00:05,068]ERROR (AuthFilter.java:40):/view/depart/departList
-[2018-09-04 12:00:05,068]FATAL (AuthFilter.java:42):/view/depart/departList
-[2018-09-04 12:00:15,810]DEBUG (AuthFilter.java:34):/json.html
-[2018-09-04 12:00:15,810] INFO (AuthFilter.java:36):/json.html
-[2018-09-04 12:00:15,810] WARN (AuthFilter.java:38):/json.html
-[2018-09-04 12:00:15,810]ERROR (AuthFilter.java:40):/json.html
-[2018-09-04 12:00:15,810]FATAL (AuthFilter.java:42):/json.html
-[2018-09-04 12:00:16,925]DEBUG (AuthFilter.java:34):/views/depart/departList
-[2018-09-04 12:00:16,926] INFO (AuthFilter.java:36):/views/depart/departList
-[2018-09-04 12:00:16,926] WARN (AuthFilter.java:38):/views/depart/departList
-[2018-09-04 12:00:16,926]ERROR (AuthFilter.java:40):/views/depart/departList
-[2018-09-04 12:00:16,926]FATAL (AuthFilter.java:42):/views/depart/departList
-[2018-09-04 12:00:18,513]DEBUG (AuthFilter.java:34):/vendor/bootstrap/css/bootstrap.min.css.map
-[2018-09-04 12:00:18,514] INFO (AuthFilter.java:36):/vendor/bootstrap/css/bootstrap.min.css.map
-[2018-09-04 12:00:18,514] WARN (AuthFilter.java:38):/vendor/bootstrap/css/bootstrap.min.css.map
-[2018-09-04 12:00:18,514]ERROR (AuthFilter.java:40):/vendor/bootstrap/css/bootstrap.min.css.map
-[2018-09-04 12:00:18,514]FATAL (AuthFilter.java:42):/vendor/bootstrap/css/bootstrap.min.css.map
-[2018-09-04 12:00:28,074]DEBUG (AuthFilter.java:34):/json.html
-[2018-09-04 12:00:28,074] INFO (AuthFilter.java:36):/json.html
-[2018-09-04 12:00:28,075] WARN (AuthFilter.java:38):/json.html
-[2018-09-04 12:00:28,075]ERROR (AuthFilter.java:40):/json.html
-[2018-09-04 12:00:28,075]FATAL (AuthFilter.java:42):/json.html
-[2018-09-04 12:00:30,113]DEBUG (AuthFilter.java:34):/views/depart/departList
-[2018-09-04 12:00:30,113] INFO (AuthFilter.java:36):/views/depart/departList
-[2018-09-04 12:00:30,114] WARN (AuthFilter.java:38):/views/depart/departList
-[2018-09-04 12:00:30,114]ERROR (AuthFilter.java:40):/views/depart/departList
-[2018-09-04 12:00:30,115]FATAL (AuthFilter.java:42):/views/depart/departList
-[2018-09-04 12:01:03,684]DEBUG (AuthFilter.java:34):/json.html
-[2018-09-04 12:01:03,684] INFO (AuthFilter.java:36):/json.html
-[2018-09-04 12:01:03,686] WARN (AuthFilter.java:38):/json.html
-[2018-09-04 12:01:03,686]ERROR (AuthFilter.java:40):/json.html
-[2018-09-04 12:01:03,686]FATAL (AuthFilter.java:42):/json.html
-[2018-09-04 12:01:04,872]DEBUG (AuthFilter.java:34):/depart/departList
-[2018-09-04 12:01:04,873] INFO (AuthFilter.java:36):/depart/departList
-[2018-09-04 12:01:04,873] WARN (AuthFilter.java:38):/depart/departList
-[2018-09-04 12:01:04,873]ERROR (AuthFilter.java:40):/depart/departList
-[2018-09-04 12:01:04,873]FATAL (AuthFilter.java:42):/depart/departList
-[2018-09-04 12:05:11,312]DEBUG (AuthFilter.java:34):/json.html
-[2018-09-04 12:05:11,312] INFO (AuthFilter.java:36):/json.html
-[2018-09-04 12:05:11,312] WARN (AuthFilter.java:38):/json.html
-[2018-09-04 12:05:11,312]ERROR (AuthFilter.java:40):/json.html
-[2018-09-04 12:05:11,312]FATAL (AuthFilter.java:42):/json.html
-[2018-09-04 12:05:12,605]DEBUG (AuthFilter.java:34):/view/depart/departList
-[2018-09-04 12:05:12,605] INFO (AuthFilter.java:36):/view/depart/departList
-[2018-09-04 12:05:12,606] WARN (AuthFilter.java:38):/view/depart/departList
-[2018-09-04 12:05:12,606]ERROR (AuthFilter.java:40):/view/depart/departList
-[2018-09-04 12:05:12,606]FATAL (AuthFilter.java:42):/view/depart/departList
-[2018-09-04 12:05:31,042]DEBUG (AuthFilter.java:34):/json.html
-[2018-09-04 12:05:31,043] INFO (AuthFilter.java:36):/json.html
-[2018-09-04 12:05:31,043] WARN (AuthFilter.java:38):/json.html
-[2018-09-04 12:05:31,043]ERROR (AuthFilter.java:40):/json.html
-[2018-09-04 12:05:31,044]FATAL (AuthFilter.java:42):/json.html
-[2018-09-04 12:05:32,081]DEBUG (AuthFilter.java:34):/json/list
-[2018-09-04 12:05:32,082] INFO (AuthFilter.java:36):/json/list
-[2018-09-04 12:05:32,082] WARN (AuthFilter.java:38):/json/list
-[2018-09-04 12:05:32,082]ERROR (AuthFilter.java:40):/json/list
-[2018-09-04 12:05:32,083]FATAL (AuthFilter.java:42):/json/list
-[2018-09-04 13:12:19,564]DEBUG (AuthFilter.java:34):/json.html
-[2018-09-04 13:12:19,583] INFO (AuthFilter.java:36):/json.html
-[2018-09-04 13:12:19,584] WARN (AuthFilter.java:38):/json.html
-[2018-09-04 13:12:19,584]ERROR (AuthFilter.java:40):/json.html
-[2018-09-04 13:12:19,584]FATAL (AuthFilter.java:42):/json.html
-[2018-09-04 13:12:21,607]DEBUG (AuthFilter.java:34):/json/list
-[2018-09-04 13:12:21,607] INFO (AuthFilter.java:36):/json/list
-[2018-09-04 13:12:21,607] WARN (AuthFilter.java:38):/json/list
-[2018-09-04 13:12:21,607]ERROR (AuthFilter.java:40):/json/list
-[2018-09-04 13:12:21,607]FATAL (AuthFilter.java:42):/json/list
-[2018-09-04 13:12:32,633]DEBUG (AuthFilter.java:34):/json/list
-[2018-09-04 13:12:32,633] INFO (AuthFilter.java:36):/json/list
-[2018-09-04 13:12:32,633] WARN (AuthFilter.java:38):/json/list
-[2018-09-04 13:12:32,633]ERROR (AuthFilter.java:40):/json/list
-[2018-09-04 13:12:32,633]FATAL (AuthFilter.java:42):/json/list
-[2018-09-04 13:12:32,793]DEBUG (AuthFilter.java:34):/vendor/common.js
-[2018-09-04 13:12:32,793] INFO (AuthFilter.java:36):/vendor/common.js
-[2018-09-04 13:12:32,793] WARN (AuthFilter.java:38):/vendor/common.js
-[2018-09-04 13:12:32,793]ERROR (AuthFilter.java:40):/vendor/common.js
-[2018-09-04 13:12:32,794]FATAL (AuthFilter.java:42):/vendor/common.js
-[2018-09-04 13:12:37,906]DEBUG (AuthFilter.java:34):/json/list
-[2018-09-04 13:12:37,906] INFO (AuthFilter.java:36):/json/list
-[2018-09-04 13:12:37,906] WARN (AuthFilter.java:38):/json/list
-[2018-09-04 13:12:37,907]ERROR (AuthFilter.java:40):/json/list
-[2018-09-04 13:12:37,907]FATAL (AuthFilter.java:42):/json/list
-[2018-09-04 13:12:52,697]DEBUG (AuthFilter.java:34):/json.html
-[2018-09-04 13:12:52,697] INFO (AuthFilter.java:36):/json.html
-[2018-09-04 13:12:52,700] WARN (AuthFilter.java:38):/json.html
-[2018-09-04 13:12:52,700]ERROR (AuthFilter.java:40):/json.html
-[2018-09-04 13:12:52,701]FATAL (AuthFilter.java:42):/json.html
-[2018-09-04 13:12:55,103]DEBUG (AuthFilter.java:34):/json/list
-[2018-09-04 13:12:55,103] INFO (AuthFilter.java:36):/json/list
-[2018-09-04 13:12:55,103] WARN (AuthFilter.java:38):/json/list
-[2018-09-04 13:12:55,103]ERROR (AuthFilter.java:40):/json/list
-[2018-09-04 13:12:55,103]FATAL (AuthFilter.java:42):/json/list
-[2018-09-04 13:13:45,795]DEBUG (AuthFilter.java:34):/
-[2018-09-04 13:13:45,810] INFO (AuthFilter.java:36):/
-[2018-09-04 13:13:45,810] WARN (AuthFilter.java:38):/
-[2018-09-04 13:13:45,810]ERROR (AuthFilter.java:40):/
-[2018-09-04 13:13:45,810]FATAL (AuthFilter.java:42):/
-[2018-09-04 13:14:02,161]DEBUG (AuthFilter.java:34):/json.html
-[2018-09-04 13:14:02,163] INFO (AuthFilter.java:36):/json.html
-[2018-09-04 13:14:02,163] WARN (AuthFilter.java:38):/json.html
-[2018-09-04 13:14:02,163]ERROR (AuthFilter.java:40):/json.html
-[2018-09-04 13:14:02,165]FATAL (AuthFilter.java:42):/json.html
-[2018-09-04 13:14:03,148]DEBUG (AuthFilter.java:34):/json/list
-[2018-09-04 13:14:03,148] INFO (AuthFilter.java:36):/json/list
-[2018-09-04 13:14:03,148] WARN (AuthFilter.java:38):/json/list
-[2018-09-04 13:14:03,148]ERROR (AuthFilter.java:40):/json/list
-[2018-09-04 13:14:03,148]FATAL (AuthFilter.java:42):/json/list
-[2018-09-04 13:14:52,468]DEBUG (AuthFilter.java:34):/json.html
-[2018-09-04 13:14:52,482] INFO (AuthFilter.java:36):/json.html
-[2018-09-04 13:14:52,483] WARN (AuthFilter.java:38):/json.html
-[2018-09-04 13:14:52,483]ERROR (AuthFilter.java:40):/json.html
-[2018-09-04 13:14:52,483]FATAL (AuthFilter.java:42):/json.html
-[2018-09-04 13:14:59,866]DEBUG (AuthFilter.java:34):/json/list
-[2018-09-04 13:14:59,867] INFO (AuthFilter.java:36):/json/list
-[2018-09-04 13:14:59,867] WARN (AuthFilter.java:38):/json/list
-[2018-09-04 13:14:59,867]ERROR (AuthFilter.java:40):/json/list
-[2018-09-04 13:14:59,867]FATAL (AuthFilter.java:42):/json/list
-[2018-09-04 13:16:13,392]DEBUG (AuthFilter.java:34):/json.html
-[2018-09-04 13:16:13,392] INFO (AuthFilter.java:36):/json.html
-[2018-09-04 13:16:13,392] WARN (AuthFilter.java:38):/json.html
-[2018-09-04 13:16:13,396]ERROR (AuthFilter.java:40):/json.html
-[2018-09-04 13:16:13,397]FATAL (AuthFilter.java:42):/json.html
-[2018-09-04 13:16:14,356]DEBUG (AuthFilter.java:34):/json/list
-[2018-09-04 13:16:14,356] INFO (AuthFilter.java:36):/json/list
-[2018-09-04 13:16:14,356] WARN (AuthFilter.java:38):/json/list
-[2018-09-04 13:16:14,356]ERROR (AuthFilter.java:40):/json/list
-[2018-09-04 13:16:14,356]FATAL (AuthFilter.java:42):/json/list
-[2018-09-04 13:46:34,914]DEBUG (AuthFilter.java:34):/json.html
-[2018-09-04 13:46:34,915] INFO (AuthFilter.java:36):/json.html
-[2018-09-04 13:46:34,915] WARN (AuthFilter.java:38):/json.html
-[2018-09-04 13:46:34,915]ERROR (AuthFilter.java:40):/json.html
-[2018-09-04 13:46:34,915]FATAL (AuthFilter.java:42):/json.html
-[2018-09-04 13:46:41,136]DEBUG (AuthFilter.java:34):/json/list
-[2018-09-04 13:46:41,137] INFO (AuthFilter.java:36):/json/list
-[2018-09-04 13:46:41,137] WARN (AuthFilter.java:38):/json/list
-[2018-09-04 13:46:41,137]ERROR (AuthFilter.java:40):/json/list
-[2018-09-04 13:46:41,139]FATAL (AuthFilter.java:42):/json/list
-[2018-09-04 13:48:03,913]DEBUG (AuthFilter.java:34):/json.html
-[2018-09-04 13:48:03,914] INFO (AuthFilter.java:36):/json.html
-[2018-09-04 13:48:03,914] WARN (AuthFilter.java:38):/json.html
-[2018-09-04 13:48:03,914]ERROR (AuthFilter.java:40):/json.html
-[2018-09-04 13:48:03,914]FATAL (AuthFilter.java:42):/json.html
-[2018-09-04 13:48:05,001]DEBUG (AuthFilter.java:34):/json/list
-[2018-09-04 13:48:05,002] INFO (AuthFilter.java:36):/json/list
-[2018-09-04 13:48:05,002] WARN (AuthFilter.java:38):/json/list
-[2018-09-04 13:48:05,002]ERROR (AuthFilter.java:40):/json/list
-[2018-09-04 13:48:05,002]FATAL (AuthFilter.java:42):/json/list
-[2018-09-04 13:52:07,453] INFO (AuthFilter.java:33):GET:/json.html
-[2018-09-04 13:52:09,109] INFO (AuthFilter.java:33):DELETE:/json/list
-[2018-09-04 13:52:19,105] INFO (AuthFilter.java:33):DELETE:/json/list
-[2018-09-04 13:55:23,253] INFO (AuthFilter.java:33):GET:/json.html
-[2018-09-04 13:55:26,627] INFO (AuthFilter.java:33):PUT:/json/list
-[2018-09-04 13:55:28,752] INFO (AuthFilter.java:33):GET:/json/list
-[2018-09-04 13:55:49,600] INFO (AuthFilter.java:33):POST:/json/list
-[2018-09-04 13:55:53,727] INFO (AuthFilter.java:33):DELETE:/json/list
-[2018-09-04 13:55:55,824] INFO (AuthFilter.java:33):GET:/json/list
-[2018-09-04 13:57:09,233] INFO (AuthFilter.java:33):GET:/json.html
-[2018-09-04 13:57:13,214] INFO (AuthFilter.java:33):PUT:/json/list
-[2018-09-04 13:57:17,346] INFO (AuthFilter.java:33):GET:/json/list
-[2018-09-04 13:57:18,664] INFO (AuthFilter.java:33):POST:/json/list
-[2018-09-04 13:57:20,204] INFO (AuthFilter.java:33):DELETE:/json/list
-[2018-09-04 13:58:01,227] INFO (AuthFilter.java:33):GET:/json.html
-[2018-09-04 13:58:03,171] INFO (AuthFilter.java:33):PUT:/json/list
-[2018-09-04 13:58:05,786] INFO (AuthFilter.java:33):GET:/json/list
-[2018-09-04 13:58:09,282] INFO (AuthFilter.java:33):POST:/json/list
-[2018-09-04 13:58:10,897] INFO (AuthFilter.java:33):DELETE:/json/list
-[2018-09-04 13:58:53,172] INFO (AuthFilter.java:33):GET:/json.html
-[2018-09-04 13:58:54,706] INFO (AuthFilter.java:33):PUT:/json/list
-[2018-09-04 13:58:56,745] INFO (AuthFilter.java:33):GET:/json/list
-[2018-09-04 13:58:58,273] INFO (AuthFilter.java:33):POST:/json/list
-[2018-09-04 13:59:01,953] INFO (AuthFilter.java:33):POST:/json/list
-[2018-09-04 13:59:03,283] INFO (AuthFilter.java:33):DELETE:/json/list
-[2018-09-04 13:59:04,221] INFO (AuthFilter.java:33):GET:/json.html
-[2018-09-04 13:59:05,779] INFO (AuthFilter.java:33):PUT:/json/list
-[2018-09-04 13:59:08,065] INFO (AuthFilter.java:33):POST:/json/list
-[2018-09-04 13:59:14,328] INFO (AuthFilter.java:33):POST:/json/list
-[2018-09-04 14:00:26,736] INFO (AuthFilter.java:33):GET:/json.html
-[2018-09-04 14:00:30,411] INFO (AuthFilter.java:33):GET:/json.html
-[2018-09-04 14:00:31,170] INFO (AuthFilter.java:33):PUT:/json/list
-[2018-09-04 14:00:54,833] INFO (AuthFilter.java:33):POST:/json/list
-[2018-09-04 14:03:42,070] INFO (AuthFilter.java:33):PUT:/json/list
-[2018-09-04 14:03:46,811] INFO (AuthFilter.java:33):GET:/json.html
-[2018-09-04 14:03:49,105] INFO (AuthFilter.java:33):PUT:/json/list
-[2018-09-04 14:04:31,797] INFO (AuthFilter.java:33):GET:/json.html
-[2018-09-04 14:04:33,501] INFO (AuthFilter.java:33):PUT:/json/list
-[2018-09-04 14:04:44,140] INFO (AuthFilter.java:33):GET:/json.html
-[2018-09-04 14:04:45,372] INFO (AuthFilter.java:33):PUT:/json/list
-[2018-09-04 14:05:17,475] INFO (AuthFilter.java:33):GET:/json.html
-[2018-09-04 14:05:25,990] INFO (AuthFilter.java:33):PUT:/json/list
-[2018-09-04 14:05:30,351] INFO (AuthFilter.java:33):PUT:/json/list
-[2018-09-04 14:06:07,337] INFO (AuthFilter.java:33):GET:/json.html
-[2018-09-04 14:06:10,409] INFO (AuthFilter.java:33):GET:/json.html
-[2018-09-04 14:06:15,255] INFO (AuthFilter.java:33):PUT:/json/list
-[2018-09-04 14:06:44,264] INFO (AuthFilter.java:33):PUT:/json/list
-[2018-09-04 14:06:57,351] INFO (AuthFilter.java:33):PUT:/json/list
-[2018-09-04 14:07:20,050] INFO (AuthFilter.java:33):GET:/json.html
-[2018-09-04 14:07:22,039] INFO (AuthFilter.java:33):PUT:/json/list
-[2018-09-04 14:07:27,598] INFO (AuthFilter.java:33):PUT:/json/list
-[2018-09-04 14:07:32,066] INFO (AuthFilter.java:33):PUT:/json/list
-[2018-09-04 14:07:50,426] INFO (AuthFilter.java:33):GET:/json/list
-[2018-09-04 14:09:18,148] INFO (AuthFilter.java:33):GET:/json.html
-[2018-09-04 14:09:19,720] INFO (AuthFilter.java:33):PUT:/json/list
-[2018-09-04 14:09:43,558] INFO (AuthFilter.java:33):GET:/json.html
-[2018-09-04 14:09:47,575] INFO (AuthFilter.java:33):PUT:/json/list
-[2018-09-04 14:09:50,397] INFO (AuthFilter.java:33):GET:/json.html
-[2018-09-04 14:09:51,361] INFO (AuthFilter.java:33):PUT:/json/list
-[2018-09-04 14:10:30,987] INFO (AuthFilter.java:33):GET:/
-[2018-09-04 14:10:41,392] INFO (AuthFilter.java:33):PUT:/json/list
-[2018-09-04 14:10:47,331] INFO (AuthFilter.java:33):PUT:/json/list
-[2018-09-04 14:11:28,860] INFO (AuthFilter.java:33):GET:/json.html
-[2018-09-04 14:11:29,988] INFO (AuthFilter.java:33):PUT:/json/list
-[2018-09-04 14:11:40,581] INFO (AuthFilter.java:33):GET:/json.html
-[2018-09-04 14:11:44,330] INFO (AuthFilter.java:33):GET:/json.html
-[2018-09-04 14:11:45,747] INFO (AuthFilter.java:33):PUT:/json/list
-[2018-09-04 14:12:42,503] INFO (AuthFilter.java:33):GET:/json.html
-[2018-09-04 14:12:44,211] INFO (AuthFilter.java:33):PUT:/json/list
-[2018-09-04 14:12:59,032] INFO (AuthFilter.java:33):GET:/json.html
-[2018-09-04 14:13:01,067] INFO (AuthFilter.java:33):PUT:/json/list
-[2018-09-04 14:13:14,609] INFO (AuthFilter.java:33):GET:/json.html
-[2018-09-04 14:13:15,773] INFO (AuthFilter.java:33):PUT:/json/list
-[2018-09-04 14:13:44,425] INFO (AuthFilter.java:33):GET:/json.html
-[2018-09-04 14:13:46,418] INFO (AuthFilter.java:33):PUT:/json/list
-[2018-09-04 14:13:49,594] INFO (AuthFilter.java:33):GET:/json/list
-[2018-09-04 14:13:50,689] INFO (AuthFilter.java:33):GET:/json/list
-[2018-09-04 14:13:55,437] INFO (AuthFilter.java:33):GET:/json.html
-[2018-09-04 14:14:09,031] INFO (AuthFilter.java:33):GET:/json.html
-[2018-09-04 14:14:11,846] INFO (AuthFilter.java:33):GET:/json.html
-[2018-09-04 14:14:13,191] INFO (AuthFilter.java:33):GET:/json.html
-[2018-09-04 14:14:15,881] INFO (AuthFilter.java:33):GET:/json.html
-[2018-09-04 14:14:16,425] INFO (AuthFilter.java:33):GET:/json.html
-[2018-09-04 14:14:16,767] INFO (AuthFilter.java:33):GET:/json.html
-[2018-09-04 14:14:17,010] INFO (AuthFilter.java:33):GET:/json.html
-[2018-09-04 14:14:27,156] INFO (AuthFilter.java:33):GET:/json.html
-[2018-09-04 14:14:29,942] INFO (AuthFilter.java:33):GET:/json.html
-[2018-09-04 14:14:45,621] INFO (AuthFilter.java:33):GET:/
-[2018-09-04 14:14:59,878] INFO (AuthFilter.java:33):GET:/json.html
-[2018-09-04 14:15:02,939] INFO (AuthFilter.java:33):PUT:/json/list
-[2018-09-04 14:15:05,950] INFO (AuthFilter.java:33):GET:/json/list
-[2018-09-04 14:15:08,033] INFO (AuthFilter.java:33):POST:/json/list
-[2018-09-04 14:15:09,579] INFO (AuthFilter.java:33):DELETE:/json/list
-[2018-09-04 14:17:00,152] INFO (AuthFilter.java:33):GET:/json.html
-[2018-09-04 14:17:09,063] INFO (AuthFilter.java:33):GET:/json.html
-[2018-09-04 14:17:12,552] INFO (AuthFilter.java:33):GET:/json.html
-[2018-09-04 14:17:17,347] INFO (AuthFilter.java:33):GET:/json.html
-[2018-09-04 14:17:19,378] INFO (AuthFilter.java:33):GET:/json/list
-[2018-09-04 15:22:41,069] INFO (AuthFilter.java:33):GET:/
-[2018-09-04 15:22:41,271] INFO (AuthFilter.java:33):GET:/vendor/bootstrap/css/bootstrap.min.css
-[2018-09-04 15:22:41,280] INFO (AuthFilter.java:33):GET:/css/simple-sidebar.css
-[2018-09-04 15:22:41,284] INFO (AuthFilter.java:33):GET:/css/common.css
-[2018-09-04 15:22:41,293] INFO (AuthFilter.java:33):GET:/vendor/jquery/jquery.min.js
-[2018-09-04 15:22:41,305] INFO (AuthFilter.java:33):GET:/vendor/bootstrap/js/bootstrap.bundle.min.js
-[2018-09-04 15:22:41,344] INFO (AuthFilter.java:33):GET:/vendor/common.js
-[2018-09-04 15:22:41,743] INFO (AuthFilter.java:33):GET:/favicon.ico
-[2018-09-04 15:23:08,740] INFO (AuthFilter.java:33):OPTIONS:/
-[2018-09-04 15:23:13,648] INFO (AuthFilter.java:33):GET:/
-[2018-09-04 15:23:14,198] INFO (AuthFilter.java:33):GET:/vendor/bootstrap/css/bootstrap.min.css
-[2018-09-04 15:23:14,202] INFO (AuthFilter.java:33):GET:/css/simple-sidebar.css
-[2018-09-04 15:23:14,330] INFO (AuthFilter.java:33):GET:/css/common.css
-[2018-09-04 15:23:14,334] INFO (AuthFilter.java:33):GET:/vendor/common.js
-[2018-09-04 15:23:14,339] INFO (AuthFilter.java:33):GET:/vendor/jquery/jquery.min.js
-[2018-09-04 15:23:14,340] INFO (AuthFilter.java:33):GET:/vendor/bootstrap/js/bootstrap.bundle.min.js
-[2018-09-04 15:23:15,359] INFO (AuthFilter.java:33):GET:/favicon.ico
+[2018-09-10 16:01:12,017] INFO (AuthFilter.java:33):GET:/
+[2018-09-10 16:01:44,831] INFO (AuthFilter.java:33):GET:/
+[2018-09-10 16:05:33,282] INFO (AuthFilter.java:33):GET:/
+[2018-09-10 16:05:59,047] INFO (AuthFilter.java:33):GET:/
+[2018-09-10 16:06:38,131] INFO (AuthFilter.java:33):GET:/
+[2018-09-10 16:06:48,050] INFO (AuthFilter.java:33):GET:/
+[2018-09-10 16:40:34,721] INFO (AuthFilter.java:35):GET:/
+[2018-09-10 16:40:34,721] INFO (AuthFilter.java:35):GET:/
+[2018-09-10 16:40:34,731] INFO (AuthFilter.java:38):너 권한 없음
+[2018-09-10 16:40:34,732] INFO (AuthFilter.java:38):너 권한 없음
+[2018-09-10 16:40:34,749] INFO (AuthFilter.java:35):GET:/views/login
+[2018-09-10 16:41:24,261] INFO (AuthFilter.java:35):GET:/
+[2018-09-10 16:41:24,271] INFO (AuthFilter.java:38):너 권한 없음
+[2018-09-10 16:41:26,572] INFO (AuthFilter.java:35):GET:/
+[2018-09-10 16:41:26,573] INFO (AuthFilter.java:38):너 권한 없음
+[2018-09-10 16:41:26,582] INFO (AuthFilter.java:35):GET:/views/login
+[2018-09-10 16:41:30,424] INFO (AuthFilter.java:35):GET:/loginok.jsp
+[2018-09-10 16:41:31,244] INFO (AuthFilter.java:35):GET:/veiws/index
+[2018-09-10 16:41:32,635] INFO (AuthFilter.java:35):GET:/member/memberList
+[2018-09-10 16:41:35,270] INFO (AuthFilter.java:35):GET:/level/levelList
+[2018-09-10 16:51:15,199] INFO (AuthFilter.java:35):GET:/level/deleteLevelList
+[2018-09-10 16:51:15,200] INFO (AuthFilter.java:38):너 권한 없음
+[2018-09-10 16:51:15,205] INFO (AuthFilter.java:35):GET:/views/login
+[2018-09-10 16:51:20,330] INFO (AuthFilter.java:35):GET:/loginok.jsp
+[2018-09-10 16:51:20,959] INFO (AuthFilter.java:35):GET:/veiws/index
+[2018-09-10 16:51:21,754] INFO (AuthFilter.java:35):GET:/level/levelList
+[2018-09-10 16:53:12,667] INFO (AuthFilter.java:35):GET:/depart/departList
+[2018-09-10 16:53:12,669] INFO (AuthFilter.java:38):너 권한 없음
+[2018-09-10 16:53:12,675] INFO (AuthFilter.java:35):GET:/views/login
+[2018-09-10 16:54:23,231] INFO (AuthFilter.java:35):GET:/views/musicChart
+[2018-09-10 16:54:23,244] INFO (AuthFilter.java:38):너 권한 없음
+[2018-09-10 16:54:29,514] INFO (AuthFilter.java:35):GET:/views/music/musicChart
+[2018-09-10 16:54:29,519] INFO (AuthFilter.java:38):너 권한 없음
+[2018-09-10 16:54:50,534] INFO (AuthFilter.java:35):GET:/views/ticketMovie/ticketMovieList
+[2018-09-10 16:54:50,535] INFO (AuthFilter.java:38):너 권한 없음
+[2018-09-10 16:55:15,719] INFO (AuthFilter.java:35):GET:/ticketMovie/ticketMovieList
+[2018-09-10 16:55:15,719] INFO (AuthFilter.java:38):너 권한 없음
+[2018-09-10 16:55:16,633] INFO (AuthFilter.java:35):GET:/upload/1535958040883.jpg
+[2018-09-10 16:55:16,634] INFO (AuthFilter.java:38):너 권한 없음
+[2018-09-10 17:02:09,110] INFO (AuthFilter.java:35):GET:/ticketMovie/ticketMovieList
+[2018-09-10 17:02:09,121] INFO (AuthFilter.java:38):너 권한 없음
+[2018-09-10 17:02:09,110] INFO (AuthFilter.java:35):GET:/
+[2018-09-10 17:02:09,135] INFO (AuthFilter.java:38):너 권한 없음
+[2018-09-10 17:02:11,840] INFO (AuthFilter.java:35):GET:/ticketMovie/ticketMovieList
+[2018-09-10 17:02:11,842] INFO (AuthFilter.java:38):너 권한 없음
+[2018-09-10 17:02:17,944] INFO (AuthFilter.java:35):GET:/vendor/bootstrap/js/bootstrap.bundle.min.js.map
+[2018-09-10 17:02:17,944] INFO (AuthFilter.java:38):너 권한 없음
+[2018-09-10 17:02:17,951] INFO (AuthFilter.java:35):GET:/vendor/bootstrap/css/bootstrap.min.css.map
+[2018-09-10 17:02:17,951] INFO (AuthFilter.java:38):너 권한 없음
+[2018-09-10 17:02:32,079] INFO (AuthFilter.java:35):GET:/ticketMovie/ticketMovieList
+[2018-09-10 17:02:32,079] INFO (AuthFilter.java:38):너 권한 없음
+[2018-09-10 17:02:57,558] INFO (AuthFilter.java:35):GET:/ticketMovie/ticketMovieList
+[2018-09-10 17:02:57,559] INFO (AuthFilter.java:38):너 권한 없음
+[2018-09-10 17:03:29,204] INFO (AuthFilter.java:35):GET:/ticketMovie/ticketMovieList
+[2018-09-10 17:03:29,204] INFO (AuthFilter.java:38):너 권한 없음
+[2018-09-10 17:03:37,989] INFO (AuthFilter.java:35):GET:/ticketMovie/ticketMovieList
+[2018-09-10 17:03:37,990] INFO (AuthFilter.java:38):너 권한 없음
+[2018-09-10 17:03:40,168] INFO (AuthFilter.java:35):GET:/ticketMovie/ticketMovieDelete
+[2018-09-10 17:03:40,168] INFO (AuthFilter.java:38):너 권한 없음
+[2018-09-10 17:06:54,120] INFO (AuthFilter.java:35):GET:/ticketMovie/ticketMovieDelete
+[2018-09-10 17:06:54,128] INFO (AuthFilter.java:38):너 권한 없음
+[2018-09-10 17:09:02,875] INFO (AuthFilter.java:35):GET:/ticketMovie/ticketMovieDelete
+[2018-09-10 17:09:02,885] INFO (AuthFilter.java:38):너 권한 없음

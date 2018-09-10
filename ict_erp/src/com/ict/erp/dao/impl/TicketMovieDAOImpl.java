@@ -4,6 +4,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.ict.erp.common.IBean;
 import com.ict.erp.common.ICTUtils;
 import com.ict.erp.dao.TicketMovieDAO;
 import com.ict.erp.vo.MenuInfo;
@@ -28,8 +29,17 @@ public class TicketMovieDAOImpl extends CommonDAOImpl implements TicketMovieDAO 
 
 	@Override
 	public TicketMovie selectTicketMovie(TicketMovie tm) throws SQLException {
-		// TODO Auto-generated method stub
-		return null;
+		String sql = "select * from ticket_movie where tmNum=?";
+		try {
+			ps = con.prepareStatement(sql);
+			ps.setInt(1, tm.getTmNum());
+			rs = ps.executeQuery();
+			return IBean.convert(rs, TicketMovie.class);
+		}catch(SQLException e) {
+			throw e;
+		}finally {
+			close();
+		}
 	}
 
 	@Override
@@ -63,8 +73,16 @@ public class TicketMovieDAOImpl extends CommonDAOImpl implements TicketMovieDAO 
 
 	@Override
 	public int deleteTicketMovie(TicketMovie tm) throws SQLException {
-		// TODO Auto-generated method stub
-		return 0;
+		String sql = "delete from ticket_movie where tmNum=?";
+		try {
+			ps = con.prepareStatement(sql);
+			ps.setInt(1, tm.getTmNum());
+			return ps.executeUpdate();
+		}catch(SQLException e) {
+			throw e;
+		}finally {
+			close();
+		}
 	}
 
 }

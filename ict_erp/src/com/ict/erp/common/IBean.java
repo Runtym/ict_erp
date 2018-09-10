@@ -22,7 +22,15 @@ public class IBean {
 		}
 		return list;
 	}
-	
+
+
+	public static <E> E convert(ResultSet rs, Class<E> clazz) throws SQLException{
+		BeanProcessor bp = new BeanProcessor();
+		if(rs.next()) {
+			return (E) bp.toBean(rs, clazz);
+		}
+		return null;
+	}
 	public static <E> E parseRequest(HttpServletRequest req, Class<?> clazz) throws Exception {
 		E obj;
 		try {
