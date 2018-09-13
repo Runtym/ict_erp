@@ -25,11 +25,11 @@
 			</tr>
 			<tr>
 				<th>상영일</th>
-				<td><input type="date" name="tmStartDat"></td>
+				<td><input type="date" name="tmStartdat"></td>
 			</tr>
 			<tr>
 				<th>종료일</th>
-				<td><input type="date" name="tmEndDat"></td>
+				<td><input type="date" name="tmEnddat"></td>
 			</tr>
 			<tr>
 				<th>영화설명</th>

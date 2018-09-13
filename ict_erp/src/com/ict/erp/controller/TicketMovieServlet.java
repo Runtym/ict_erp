@@ -35,7 +35,7 @@ public class TicketMovieServlet extends HttpServlet {
 	private static final int UP_FILE_SIZE = 1024*1024*20;//20MB
 	
 	private static final File TEMP_REPOSITORY = new File(System.getProperty("java.io.tmpdir"));
-	private static final String UP_PATH = "C:\\jsp_study\\workspace\\git\\ict_erp\\ict_erp\\WebContent";
+	public static final String UP_PATH = "C:\\jsp_study\\workspace\\git\\ict_erp\\ict_erp\\WebContent";
 	protected void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
 		uri = "/views" + req.getRequestURI();
 		String cmd = ICTUtils.getCmd(uri);

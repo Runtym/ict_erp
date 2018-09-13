@@ -1,9 +1,11 @@
 package com.ict.erp.service.impl;
 
+import java.io.File;
 import java.sql.SQLException;
 import java.util.List;
 
 import com.ict.erp.common.DBCon;
+import com.ict.erp.controller.TicketMovieServlet;
 import com.ict.erp.dao.TicketMovieDAO;
 import com.ict.erp.dao.impl.TicketMovieDAOImpl;
 import com.ict.erp.service.TicketMovieService;
@@ -53,9 +55,16 @@ public class TicketMovieServiceImpl implements TicketMovieService {
 		try {
 			tm = tmdao.selectTicketMovie(tm);
 			String tmImg = tm.getTmImg();
-			System.out.println(tmImg);
-			return 0;
-			//return tmdao.deleteTicketMovie(tm);
+			int cnt = tmdao.deleteTicketMovie(tm);
+			if(cnt==1) {
+				System.out.println(tmImg);
+				System.out.println(TicketMovieServlet.UP_PATH + tmImg);
+				File f = new File(TicketMovieServlet.UP_PATH + tmImg);
+				if(f.exists()) {
+					f.delete();
+				}
+			}
+			return cnt;
 		}catch(SQLException e) {
 			throw e;
 		}finally {

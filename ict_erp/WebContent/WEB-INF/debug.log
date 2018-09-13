@@ -1,63 +1,24 @@
-[2018-09-10 16:01:12,017] INFO (AuthFilter.java:33):GET:/
-[2018-09-10 16:01:44,831] INFO (AuthFilter.java:33):GET:/
-[2018-09-10 16:05:33,282] INFO (AuthFilter.java:33):GET:/
-[2018-09-10 16:05:59,047] INFO (AuthFilter.java:33):GET:/
-[2018-09-10 16:06:38,131] INFO (AuthFilter.java:33):GET:/
-[2018-09-10 16:06:48,050] INFO (AuthFilter.java:33):GET:/
-[2018-09-10 16:40:34,721] INFO (AuthFilter.java:35):GET:/
-[2018-09-10 16:40:34,721] INFO (AuthFilter.java:35):GET:/
-[2018-09-10 16:40:34,731] INFO (AuthFilter.java:38):너 권한 없음
-[2018-09-10 16:40:34,732] INFO (AuthFilter.java:38):너 권한 없음
-[2018-09-10 16:40:34,749] INFO (AuthFilter.java:35):GET:/views/login
-[2018-09-10 16:41:24,261] INFO (AuthFilter.java:35):GET:/
-[2018-09-10 16:41:24,271] INFO (AuthFilter.java:38):너 권한 없음
-[2018-09-10 16:41:26,572] INFO (AuthFilter.java:35):GET:/
-[2018-09-10 16:41:26,573] INFO (AuthFilter.java:38):너 권한 없음
-[2018-09-10 16:41:26,582] INFO (AuthFilter.java:35):GET:/views/login
-[2018-09-10 16:41:30,424] INFO (AuthFilter.java:35):GET:/loginok.jsp
-[2018-09-10 16:41:31,244] INFO (AuthFilter.java:35):GET:/veiws/index
-[2018-09-10 16:41:32,635] INFO (AuthFilter.java:35):GET:/member/memberList
-[2018-09-10 16:41:35,270] INFO (AuthFilter.java:35):GET:/level/levelList
-[2018-09-10 16:51:15,199] INFO (AuthFilter.java:35):GET:/level/deleteLevelList
-[2018-09-10 16:51:15,200] INFO (AuthFilter.java:38):너 권한 없음
-[2018-09-10 16:51:15,205] INFO (AuthFilter.java:35):GET:/views/login
-[2018-09-10 16:51:20,330] INFO (AuthFilter.java:35):GET:/loginok.jsp
-[2018-09-10 16:51:20,959] INFO (AuthFilter.java:35):GET:/veiws/index
-[2018-09-10 16:51:21,754] INFO (AuthFilter.java:35):GET:/level/levelList
-[2018-09-10 16:53:12,667] INFO (AuthFilter.java:35):GET:/depart/departList
-[2018-09-10 16:53:12,669] INFO (AuthFilter.java:38):너 권한 없음
-[2018-09-10 16:53:12,675] INFO (AuthFilter.java:35):GET:/views/login
-[2018-09-10 16:54:23,231] INFO (AuthFilter.java:35):GET:/views/musicChart
-[2018-09-10 16:54:23,244] INFO (AuthFilter.java:38):너 권한 없음
-[2018-09-10 16:54:29,514] INFO (AuthFilter.java:35):GET:/views/music/musicChart
-[2018-09-10 16:54:29,519] INFO (AuthFilter.java:38):너 권한 없음
-[2018-09-10 16:54:50,534] INFO (AuthFilter.java:35):GET:/views/ticketMovie/ticketMovieList
-[2018-09-10 16:54:50,535] INFO (AuthFilter.java:38):너 권한 없음
-[2018-09-10 16:55:15,719] INFO (AuthFilter.java:35):GET:/ticketMovie/ticketMovieList
-[2018-09-10 16:55:15,719] INFO (AuthFilter.java:38):너 권한 없음
-[2018-09-10 16:55:16,633] INFO (AuthFilter.java:35):GET:/upload/1535958040883.jpg
-[2018-09-10 16:55:16,634] INFO (AuthFilter.java:38):너 권한 없음
-[2018-09-10 17:02:09,110] INFO (AuthFilter.java:35):GET:/ticketMovie/ticketMovieList
-[2018-09-10 17:02:09,121] INFO (AuthFilter.java:38):너 권한 없음
-[2018-09-10 17:02:09,110] INFO (AuthFilter.java:35):GET:/
-[2018-09-10 17:02:09,135] INFO (AuthFilter.java:38):너 권한 없음
-[2018-09-10 17:02:11,840] INFO (AuthFilter.java:35):GET:/ticketMovie/ticketMovieList
-[2018-09-10 17:02:11,842] INFO (AuthFilter.java:38):너 권한 없음
-[2018-09-10 17:02:17,944] INFO (AuthFilter.java:35):GET:/vendor/bootstrap/js/bootstrap.bundle.min.js.map
-[2018-09-10 17:02:17,944] INFO (AuthFilter.java:38):너 권한 없음
-[2018-09-10 17:02:17,951] INFO (AuthFilter.java:35):GET:/vendor/bootstrap/css/bootstrap.min.css.map
-[2018-09-10 17:02:17,951] INFO (AuthFilter.java:38):너 권한 없음
-[2018-09-10 17:02:32,079] INFO (AuthFilter.java:35):GET:/ticketMovie/ticketMovieList
-[2018-09-10 17:02:32,079] INFO (AuthFilter.java:38):너 권한 없음
-[2018-09-10 17:02:57,558] INFO (AuthFilter.java:35):GET:/ticketMovie/ticketMovieList
-[2018-09-10 17:02:57,559] INFO (AuthFilter.java:38):너 권한 없음
-[2018-09-10 17:03:29,204] INFO (AuthFilter.java:35):GET:/ticketMovie/ticketMovieList
-[2018-09-10 17:03:29,204] INFO (AuthFilter.java:38):너 권한 없음
-[2018-09-10 17:03:37,989] INFO (AuthFilter.java:35):GET:/ticketMovie/ticketMovieList
-[2018-09-10 17:03:37,990] INFO (AuthFilter.java:38):너 권한 없음
-[2018-09-10 17:03:40,168] INFO (AuthFilter.java:35):GET:/ticketMovie/ticketMovieDelete
-[2018-09-10 17:03:40,168] INFO (AuthFilter.java:38):너 권한 없음
-[2018-09-10 17:06:54,120] INFO (AuthFilter.java:35):GET:/ticketMovie/ticketMovieDelete
-[2018-09-10 17:06:54,128] INFO (AuthFilter.java:38):너 권한 없음
-[2018-09-10 17:09:02,875] INFO (AuthFilter.java:35):GET:/ticketMovie/ticketMovieDelete
-[2018-09-10 17:09:02,885] INFO (AuthFilter.java:38):너 권한 없음
+[2018-09-13 09:53:51,177] INFO (AuthFilter.java:35):GET:/
+[2018-09-13 09:53:51,189] INFO (AuthFilter.java:38):너 권한 없음
+[2018-09-13 10:02:45,368] INFO (AuthFilter.java:35):GET:/
+[2018-09-13 10:02:45,376] INFO (AuthFilter.java:38):너 권한 없음
+[2018-09-13 10:02:56,317] INFO (AuthFilter.java:35):GET:/
+[2018-09-13 10:02:56,323] INFO (AuthFilter.java:38):너 권한 없음
+[2018-09-13 10:02:56,477] INFO (AuthFilter.java:35):GET:/vendor/common.js
+[2018-09-13 10:02:56,478] INFO (AuthFilter.java:38):너 권한 없음
+[2018-09-13 10:02:56,498] INFO (AuthFilter.java:35):GET:/vendor/jquery/jquery.min.js
+[2018-09-13 10:02:56,498] INFO (AuthFilter.java:38):너 권한 없음
+[2018-09-13 10:02:56,503] INFO (AuthFilter.java:35):GET:/vendor/bootstrap/css/bootstrap.min.css
+[2018-09-13 10:02:56,504] INFO (AuthFilter.java:38):너 권한 없음
+[2018-09-13 10:02:56,512] INFO (AuthFilter.java:35):GET:/css/simple-sidebar.css
+[2018-09-13 10:02:56,512] INFO (AuthFilter.java:38):너 권한 없음
+[2018-09-13 10:02:56,518] INFO (AuthFilter.java:35):GET:/css/common.css
+[2018-09-13 10:02:56,519] INFO (AuthFilter.java:38):너 권한 없음
+[2018-09-13 10:02:56,523] INFO (AuthFilter.java:35):GET:/vendor/bootstrap/js/bootstrap.bundle.min.js
+[2018-09-13 10:02:56,525] INFO (AuthFilter.java:38):너 권한 없음
+[2018-09-13 10:02:56,810] INFO (AuthFilter.java:35):GET:/favicon.ico
+[2018-09-13 10:02:56,810] INFO (AuthFilter.java:38):너 권한 없음
+[2018-09-13 10:03:01,940] INFO (AuthFilter.java:35):GET:/json.html
+[2018-09-13 10:03:01,940] INFO (AuthFilter.java:38):너 권한 없음
+[2018-09-13 10:03:05,029] INFO (AuthFilter.java:35):GET:/json/list
+[2018-09-13 10:03:05,029] INFO (AuthFilter.java:38):너 권한 없음
