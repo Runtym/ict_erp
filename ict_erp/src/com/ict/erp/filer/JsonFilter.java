@@ -22,12 +22,11 @@ public class JsonFilter implements Filter {
 	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
 		
 		HttpServletRequest req = (HttpServletRequest) request;
-		Enumeration<String> headerNames = req.getHeaderNames();
-		
-		while(headerNames.hasMoreElements()) {
-			String headerName = headerNames.nextElement();
-			String header = req.getHeader(headerName);
-			System.out.println(header + " : " + headerName);
+		String contenType = req.getHeader("content-type");
+		String method = req.getMethod();
+		if(contenType!=null) {
+			System.out.println("contentType : " + contenType);
+			System.out.println("method : " + method);
 		}
 		chain.doFilter(request, response);
 	}

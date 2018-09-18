@@ -1,24 +1,14 @@
-[2018-09-13 09:53:51,177] INFO (AuthFilter.java:35):GET:/
-[2018-09-13 09:53:51,189] INFO (AuthFilter.java:38):너 권한 없음
-[2018-09-13 10:02:45,368] INFO (AuthFilter.java:35):GET:/
-[2018-09-13 10:02:45,376] INFO (AuthFilter.java:38):너 권한 없음
-[2018-09-13 10:02:56,317] INFO (AuthFilter.java:35):GET:/
-[2018-09-13 10:02:56,323] INFO (AuthFilter.java:38):너 권한 없음
-[2018-09-13 10:02:56,477] INFO (AuthFilter.java:35):GET:/vendor/common.js
-[2018-09-13 10:02:56,478] INFO (AuthFilter.java:38):너 권한 없음
-[2018-09-13 10:02:56,498] INFO (AuthFilter.java:35):GET:/vendor/jquery/jquery.min.js
-[2018-09-13 10:02:56,498] INFO (AuthFilter.java:38):너 권한 없음
-[2018-09-13 10:02:56,503] INFO (AuthFilter.java:35):GET:/vendor/bootstrap/css/bootstrap.min.css
-[2018-09-13 10:02:56,504] INFO (AuthFilter.java:38):너 권한 없음
-[2018-09-13 10:02:56,512] INFO (AuthFilter.java:35):GET:/css/simple-sidebar.css
-[2018-09-13 10:02:56,512] INFO (AuthFilter.java:38):너 권한 없음
-[2018-09-13 10:02:56,518] INFO (AuthFilter.java:35):GET:/css/common.css
-[2018-09-13 10:02:56,519] INFO (AuthFilter.java:38):너 권한 없음
-[2018-09-13 10:02:56,523] INFO (AuthFilter.java:35):GET:/vendor/bootstrap/js/bootstrap.bundle.min.js
-[2018-09-13 10:02:56,525] INFO (AuthFilter.java:38):너 권한 없음
-[2018-09-13 10:02:56,810] INFO (AuthFilter.java:35):GET:/favicon.ico
-[2018-09-13 10:02:56,810] INFO (AuthFilter.java:38):너 권한 없음
-[2018-09-13 10:03:01,940] INFO (AuthFilter.java:35):GET:/json.html
-[2018-09-13 10:03:01,940] INFO (AuthFilter.java:38):너 권한 없음
-[2018-09-13 10:03:05,029] INFO (AuthFilter.java:35):GET:/json/list
-[2018-09-13 10:03:05,029] INFO (AuthFilter.java:38):너 권한 없음
+[2018-09-17 10:29:00,089] INFO (AuthFilter.java:35):GET:/
+[2018-09-17 10:29:00,101] INFO (AuthFilter.java:38):너 권한 없음
+[2018-09-17 10:29:04,080] INFO (AuthFilter.java:35):GET:/favicon.ico
+[2018-09-17 10:29:04,081] INFO (AuthFilter.java:38):너 권한 없음
+[2018-09-17 10:32:38,041] INFO (AuthFilter.java:35):GET:/
+[2018-09-17 10:32:38,051] INFO (AuthFilter.java:38):너 권한 없음
+[2018-09-17 12:06:25,381] INFO (AuthFilter.java:35):GET:/
+[2018-09-17 12:06:25,412] INFO (AuthFilter.java:38):너 권한 없음
+[2018-09-17 15:58:32,945] INFO (AuthFilter.java:35):OPTIONS:/
+[2018-09-17 15:58:32,946] INFO (AuthFilter.java:38):너 권한 없음
+[2018-09-17 16:16:58,495] INFO (AuthFilter.java:35):OPTIONS:/
+[2018-09-17 16:16:58,496] INFO (AuthFilter.java:38):너 권한 없음
+[2018-09-17 16:18:25,839] INFO (AuthFilter.java:35):OPTIONS:/
+[2018-09-17 16:18:25,839] INFO (AuthFilter.java:38):너 권한 없음

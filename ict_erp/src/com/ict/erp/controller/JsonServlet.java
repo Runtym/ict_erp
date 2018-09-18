@@ -74,6 +74,7 @@ public class JsonServlet extends HttpServlet {
         while ((s = request.getReader().readLine()) != null) {
             sb.append(s);
         }
+        System.out.println(sb.toString());
 		Map<String,String> pMap = gs.fromJson(sb.toString(),Map.class);
 		System.out.println(pMap); 
 		response.setContentType("text/html;charset=utf-8");
@@ -101,14 +102,5 @@ public class JsonServlet extends HttpServlet {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
-	}
-
-	public static void main(String[] args) {
-		String jsonStr = "우편번호|시도|시도영문|시군구|시군구영문|읍면|읍면영문|도로명코드|도로명|도로명영문|지하여부|건물번호본번|건물번호부번|건물관리번호|다량배달처명|시군구용건물명|법정동코드|법정동명|리명|행정동명|산여부|지번본번|읍면동일련번호|지번부번|구우편번호|우편번호일련번호";
-		String[] columns = jsonStr.split("\\|");
-		for(String column : columns) {
-			System.out.println(column + ",");
-		}
-	}
-	
+	}	
 }
